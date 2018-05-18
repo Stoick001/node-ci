@@ -88,6 +88,7 @@ describe('User is not logged in', async () => {
       }
     }
   ];
+  
 
   test('Blog related actions are prohibited', async() => {
     const results = await page.execRequests(actions);
